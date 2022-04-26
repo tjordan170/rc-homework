@@ -18,5 +18,5 @@ variable "release_url" {
 
 variable "release_tag" {
   description = "Tag for release to build"
-  default    = "v0.1.0"
+  default     = "v0.1.0"
 }
