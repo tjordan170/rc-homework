@@ -17,12 +17,13 @@ content: |-
   {{ .Header }}
   {{ .Footer }}
   {{ .Inputs }}
+
+  You will need to provide environment variables, either locally or in Terraform Cloud, for the api_key and converter_api_key variables.
+
   {{ .Modules }}
   {{ .Outputs }}
   {{ .Providers }}
   {{ .Requirements }}
-  
-  You will need to provide environment variables, either locally or in Terraform Cloud, for the api_key and converter_api_key variables.
   {{ .Resources }}
 
 output:
