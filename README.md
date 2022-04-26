@@ -9,6 +9,9 @@
 | <a name="input_release_tag"></a> [release\_tag](#input\_release\_tag) | Tag for release to build | `string` | `"v0.1.0"` | no |
 | <a name="input_release_url"></a> [release\_url](#input\_release\_url) | Base url for github release | `string` | `"https://github.com/tjordan170/single-page-application/archive/refs/tags"` | no |
 | <a name="input_symbols"></a> [symbols](#input\_symbols) | Currency symbols for conversions | `string` | `"EUR,USD,GBP,AUD,BTC,KES,JPY,CNY"` | no |
+
+You will need to provide environment variables, either locally or in Terraform Cloud, for the api_key and converter_api_key variables.
+
 ## Modules
 
 No modules.
@@ -27,8 +30,6 @@ No modules.
 | Name | Version |
 |------|---------|
 | <a name="requirement_heroku"></a> [heroku](#requirement\_heroku) | 5.0.2 |
-
-You will need to provide environment variables, either locally or in Terraform Cloud, for the api_key and converter_api_key variables.
 ## Resources
 
 | Name | Type |
